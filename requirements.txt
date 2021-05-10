@@ -21,4 +21,5 @@ typed-ast==1.4.0
 urllib3==1.25.7
 dj_static==0.0.6
 dj_database_url==0.5.0
+PyMySQL==1.0.2
 flask
