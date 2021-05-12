@@ -156,7 +156,9 @@ def sendPizza(event):
 def sendUse(event):  #@統資系常見問題
     try:
         message = TextSendMessage(
-            text='這是統資系的介紹，請輸入關於統資系相關問題主題。',
+            text = '''這是統資系的介紹，請輸入關於統資系相關問題主題。
+例如 : 多元入學、應用統計與資料科學學系、統資系、資料科學、課程、特色、大數據
+               ''',
             quick_reply=QuickReply(
                 items=[
                     QuickReplyButton(action=MessageAction(label="多元入學", text="多元入學")),
