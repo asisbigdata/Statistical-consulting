@@ -206,7 +206,12 @@ def sendQnA(event, mtext):  #QnA
           '@關於我們':'',
           '@AI統資':'',
           '@就業連結':'',
-          '@課程簡介':''
+          '@課程簡介':'',
+	  '@video1':'',
+	  '@video2':'',
+	  '@video3':'',
+	  '@video4':'',
+	  '@video5':''
           }
     keys1 = que1.keys()	
     try:
