@@ -211,7 +211,9 @@ def sendQnA(event, mtext):  #QnA
 	  '@video2':'',
 	  '@video3':'',
 	  '@video4':'',
-	  '@video5':''
+	  '@video5':'',
+	  '@大數據管理A':'',
+	  '@應用統計A':''
           }
     keys1 = que1.keys()	
     try:
